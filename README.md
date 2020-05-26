@@ -15,7 +15,7 @@ For the majority of the Mandlebrot Fractal code, [this article](https://solarian
 
 
 ## Dependencies for Running Locally
-* cmake >= 3.7
+* cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
   * Linux: make is installed by default on most Linux distros
