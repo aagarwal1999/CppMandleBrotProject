@@ -41,7 +41,7 @@ void CallBackFunc(int event, int xpos, int ypos, int flags, void* userdata)
 int main()
 {
      Window<int> imgBounds(0, 800, 0, 800);
-     Window<double> startingBounds(-1.7, 1.7, -1.7, 1.7);
+     Window<double> startingBounds(-2.2, 1.2, -1.7, 1.7);
      // initialize starting frame
      Mandlebrot mandleBrot(imgBounds, startingBounds);
    	std::shared_ptr<void> data =  mandleBrot.getImgData();
